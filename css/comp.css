@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #faf9ede6;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conten_barra{
+    background-color: #F4EACB;
+}
+.conten_competencias{
+    width: 400px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.nav-link{
+    color:black
+}
+.conten_competencias h1{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.botones{
+    display: flex;
+    min-width: 700px;
+    justify-content: space-between;
+    margin: 50px;
+    align-items: center;
+}
+.boton_matematicas{
+    background-color: #FFA29E;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    align-content: center;
+    display: grid;
+    place-items: center;
+    
+}
+.boton_ingles{
+    background-color: #CCB5F8;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    align-content: center;
+    display: grid;
+    place-items: center;
+
+}
+.boton_sociales{
+    background-color: #FFFAB9;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    align-content: center;
+    display: grid;
+    place-items: center;
+}
+.boton_lectura{
+    background-color: #81CBF6;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    align-content: center;
+    display: grid;
+    place-items: center;
+}
+.boton_ciencias{
+    background-color: #C7F683;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    align-content: center;
+    display: grid;
+    place-items: center;
+}
+.nombres{
+    background-color: #faf9ede6;
+    display: flex;
+    justify-content: space-between;
+    height:auto;
+    gap: 10px;
+    margin: 5px;
+}
+.nom_matematicas{
+    background-color: #faf9ede6;
+    padding: 5px;
+    width: 300px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nom_ingles{
+    background-color: #faf9ede6;
+    padding: 5px;
+    width: 300px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nom_sociales{
+    background-color: #faf9ede6;
+    padding: 5%;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nom_lectura{
+    background-color: #faf9ede6;
+    padding: 5%;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nom_ciencias{
+    background-color: #faf9ede6;
+    padding: 5%;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.materias{
+    background-color: #faf9ede6;
+    display: flex;
+    justify-content: space-between;
+    height: 17%;
+    gap: 10px;
+    margin: 50px;
+}
+.conten_matematicas{
+    background-color: #FFA29E;
+    padding: 5%;
+    width: 300px;
+    height: 650px;
+    border-radius: 60px 60px 60px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conten_inglés{
+    background-color: #CCB5F8;
+    padding: 5%;
+    width: 300px;
+    height: 650px;
+    border-radius: 60px 60px 60px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conten_sociales{
+    background-color: #FFFAB9;
+    padding: 5%;
+    width: 300px;
+    height: 650px;
+    border-radius: 60px 60px 60px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conten_lectura{
+    background-color: #81CBF6;
+    padding: 5%;
+    width: 300px;
+    height: 650px;
+    border-radius: 60px 60px 60px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conten_ciencias{
+    background-color: #C7F683;
+    padding: 5%;
+    width: 300px;
+    height: 650px;
+    border-radius: 60px 60px 60px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

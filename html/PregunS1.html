@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PREPARICFES</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/socialespag1.css">
+
+  <div class="col col_titulo">
+    <h2>Sociales y Ciudadanas</h2>
+  </div>
+</head>
+
+<body>
+  <header class="conten_nav_sociales">
+    <div class="row">
+      <div class="col">
+        <div class="conten_sociales"></div>
+      </div>
+    </div>
+  </header>
+</body>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+  .conten_columna_1 h2 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .conten_columna_2 h2 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+</style>
+
+<div class="contenedor">
+  <div class="conten_columna_1">
+    <h2>1.</h2>
+    <p>Los habitantes de un barrio de clase media se oponen a que se construyan, en este, viviendas de interés social.
+      Afirman que las personas de escasos recursos económicos que se beneficiarían con estas viviendas representarían un
+      peligro para la seguridad de los habitantes actuales del barrio. Señalan que las zonas más pobres de la ciudad son
+      también las más inseguras, y argumentan que esto prueba que una persona de escasos recursos tiene una probabilidad
+      más alta de ser un delincuente que una persona acomodada. De los siguientes enunciados, ¿cuál contiene un
+      argumento válido en contra de las afirmaciones de los habitantes del barrio de clase media?</p>
+  </div>
+
+  <div class="conten_columna_2">
+    <h2>2.</h2>
+    <p>Según la Constitución Política de Colombia de 1991, “son mecanismos de participación del pueblo en ejercicio de
+      su soberanía: el voto, el plebiscito, el referendo, la consulta popular, el cabildo abierto, la iniciativa
+      legislativa y la revocatoria del mandato”(art. 103).
+      “Los ciudadanos de la ciudad Esmeralda eligieron por voto popular al señor Pepito Mendieta como alcalde. Pepito
+      Mendieta lleva dos años de mandato; sin embargo, en este tiempo no ha generado acciones que demuestran su
+      capacidad como buen mandatario. Viaja constantemente y no ha cumplido con ningún punto de su plan de gobierno”.
+      ¿Qué mecanismo democrático pueden ejercer los ciudadanos para dar solución a este problema?</p>
+  </div>
+</div>
+
+<style>
+  input[type=radio] {
+    --s: 1em;
+    /* control the size */
+    --c: #FFFAB9;
+    /* the active color */
+
+    height: var(--s);
+    aspect-ratio: 1;
+    border: calc(var(--s)/8) solid #FFFAB9;
+    padding: calc(var(--s)/8);
+    background:
+      radial-gradient(farthest-side, var(--c) 94%, #0000) 50%/0 0 no-repeat content-box;
+    border-radius: 50%;
+    outline-offset: calc(var(--s)/10);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    font-size: 30px;
+    transition: .3s;
+  }
+
+  input[type=radio]:checked {
+    border-color: var(--c);
+    background-size: 100% 100%;
+  }
+
+  input[type=radio]:disabled {
+    background:
+      linear-gradient(#939393 0 0) 50%/100% 20% no-repeat content-box;
+    opacity: .5;
+    cursor: not-allowed;
+  }
+
+  @media print {
+    input[type=radio] {
+      -webkit-appearance: auto;
+      -moz-appearance: auto;
+      appearance: auto;
+      background: none;
+    }
+  }
+
+  label {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+  }
+</style>
+
+<div class="conten_letras_columna_1a">
+  <label><input type="radio" name="e">
+    <p style="margin-top: 5px;">Quienes ejercen la delincuencia en una zona pobre de la ciudad pueden no ser habitantes
+      de esa zonas.</p>
+  </label>
+</div>
+
+<div class="conten_letras_columna_1b">
+  <label><input type="radio" name="e">
+    <p style="margin-top: 5px;">Entre los delincuentes nunca hay personas de escasos recursos, pues todos son adinerados
+      precisamente gracias a sus actividades delictivas.</p>
+  </label>
+</div>
+
+<div class="conten_letras_columna_1c">
+  <label><input type="radio" name="e">
+    <p style="margin-top: 5px;">Los delincuentes que habitan en las zonas más pobres de la ciudad dejarían de violar la
+      ley, si contaran con mejores condiciones de vida.</p>
+  </label>
+</div>
+
+<div class="conten_letras_columna_1d">
+  <label><input type="radio" name="e">
+    <p style="margin-top: 5px;">Hay casos en que la pobreza y la falta de oportunidades llevan a una persona, en un
+      momento de desesperación, a cometer un delito.</p>
+  </label>
+</div>
+
+
+<div class="conten_letras_columna_2a">
+  <label><input type="radio" name="e">
+    <p style="margin-top: 5px;"> La consulta popular.</p>
+  </label>
+</div>
+
+<div class="conten_letras_columna_2b">
+  <label><input type="radio" name="e">
+    <p style="margin-top: 5px;">El cabildo abierto.</p>
+  </label>
+</div>
+
+<div class="conten_letras_columna_2c">
+  <label><input type="radio" name="e">
+    <p style="margin-top: 5px;">La revocatoria del mandato.</p>
+  </label>
+</div>
+
+<div class="conten_letras_columna_2d">
+  <label><input type="radio" name="e">
+    <p style="margin-top: 5px;">La iniciativa popular.</p>
+  </label>
+</div>
+
+<div class="botones">
+
+  <a href="./socialespag2.html"><button class="boton_siguiente">Siguiente</button></a>
+
+</div>
